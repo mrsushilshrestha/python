@@ -1,2 +1,2 @@
-Python Tranning
+#Python Tranning
 This is python note
