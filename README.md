@@ -1,2 +1,2 @@
-#Python Tranning
-##This is python note
+# Python Tranning
+## This is python note
