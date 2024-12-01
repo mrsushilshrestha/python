@@ -16,6 +16,17 @@ print(str.count("am")) #count the occurance of substr
 print(str.count("a"))
 
 
+""""
+String Handing Function In Python
+str.endswith()
+str.capitalize()
+str.replace()
+str.find()
+str.count()
+
+"""
+
+
 
 
 
