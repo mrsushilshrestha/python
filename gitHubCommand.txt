@@ -24,6 +24,3 @@ git push
 If you want to connect your local Git repository to a remote one (e.g., GitHub, GitLab), you'll need to add a remote URL:
 
 git remote add origin https://github.com/username/repository.git
-
-
-
