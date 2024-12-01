@@ -26,6 +26,12 @@ str.count()
 
 """
 
+#WAP to find occurance of '$' in a string 
+
+str1 ="the Dollor $ price in Nepal in current time is $1 per dollor is about Rs.136"
+
+findValue= str1.count("$")
+print("The Position Of string $ in the above string is:", findValue)
 
 
 
