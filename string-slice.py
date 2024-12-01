@@ -9,3 +9,11 @@ print(sliceString)
 
 sliceString1 = str13[7:len(str13)]
 print(sliceString1)
+
+
+
+#negative-index
+
+str = "College"
+
+print(str[-7:-4])
