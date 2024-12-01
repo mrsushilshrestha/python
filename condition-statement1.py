@@ -3,16 +3,22 @@ day=input()
 
 if(day=="sunday"):
     print("Wou Today is Holiday!")
+
 elif(day=="monday"):
     print("Sorry! No any Day Off")
+
 elif(day=="tuesday"):
     print("Sorry! No any Day Off")
+
 elif(day=="wednesday"):
     print("Sorry! No any Day Off")
-elif(day=="Thursday"):
+
+elif(day=="Thursday" ):
     print("Sorry! No any Day Off")
+
 elif(day=="friday"):
     print("Sorry! No any Day Off")
+
 elif(day=="saturday"):
     print("Sorry! No any Day Off")
 else:
