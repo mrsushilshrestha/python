@@ -5,4 +5,5 @@ secondNumber = int(input())
 
 sum = firstNumber + secondNumber
 
-print(f"The Sum of {firstNumber} and {secondNumber} is: ", sum)
+print(f"The Sum of {firstNumber} and {secondNumber} is: ",sum)
+
