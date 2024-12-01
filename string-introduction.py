@@ -15,6 +15,7 @@ str6= """Hello this is "021710" My symbol Number. Hi what's up"""
 print(str4)
 print(str5)
 print(str6)
+print("\n") #for next line or gap
 
 
 #string concatenation 
@@ -22,12 +23,22 @@ str7 ="sushil"
 str8 ="shrestha"
 
 finalString = str7 + " "+ str8 
-print(finalString)
+print(finalString,"\n")
 
 #using input()
 print("Enter the Two String")
 str9 = input()
 str10 = input()
 
-print(str9+ ' ' + str10)
+print(f" String First {str9} and String Second {str10} and It's concatenation is: ",str9+ ' ' + str10)
+
+
+#To finding string Length
+str11 ="Hello World!"
+print(len(str11))
+print(len(str9))
+
+length=len(str10)
+print(length)
+
 
