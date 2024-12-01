@@ -15,3 +15,13 @@ str6=  """Hello this is "021710" My symbol Number. Hi what's up"""
 print(str4)
 print(str5)
 print(str6)
+
+
+#string concatenation 
+
+str7 = "sushil"
+str8 ="shrestha"
+
+final-string = str7+ " " +str8
+
+print(final-string)
