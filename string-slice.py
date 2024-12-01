@@ -6,3 +6,6 @@
 str13 = "Sushil Shrestha"
 sliceString= str13[0:6]
 print(sliceString)
+
+sliceString1 = str13[7:len(str13)]
+print(sliceString1)
