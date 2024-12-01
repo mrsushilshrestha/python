@@ -32,4 +32,3 @@ print(div)
 
 
 #what are the use of end in print ("hello ", end =" ,")
-#what is the logial operator in python
