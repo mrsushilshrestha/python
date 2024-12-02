@@ -1,7 +1,7 @@
-str ="i am studing python from apna COllege"
+str ="i am studing python from Himalayan COllege"
 
 print(str.endswith("ege"))   #returns true of string ends with substr
-print(str.endswith("apna"))
+print(str.endswith("ayan"))
 
 print(str.capitalize()) #capitalize first string
 
