@@ -38,9 +38,8 @@ print(strIndex.index("h"))
  #islower() is use for check any lowercase
 print(strIndex.islower())
 
-#center
-print("Center")
-print(len(strIndex))
+#center add something in your string and make your string center like:- *************sushil Shrestha********
+print("Using Center() Function ")
 print(strIndex.center(30,"*"))
 
 
