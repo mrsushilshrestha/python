@@ -20,3 +20,7 @@ print(list)
 #If we want to add Element 5 at the position 2 
 list.insert(2,5)
 print(list)
+
+
+#remove first occurance of element
+list.remove(1)
