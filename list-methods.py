@@ -15,4 +15,8 @@ print(list)
 list.reverse() #reverses list
 print(list)
 
-#list.insert(idx,el) #insert element at index 
+#.insert(index,Element) #insert element at index 
+#It add the element at the particular index or position
+#If we want to add Element 5 at the position 2 
+list.insert(2,5)
+print(list)
