@@ -1,25 +1,25 @@
 print("Enter the Day, you want to check:")
 day=input()
 
-if(day=="sunday"):
+if(day=="sunday" or day =="sun"):
     print("Wou Today is Holiday!")
 
-elif(day=="monday"):
+elif(day=="monday" or day=="mon"):
     print("Sorry! No any Day Off")
 
-elif(day=="tuesday"):
+elif(day=="tuesday" or day =="tue"):
     print("Sorry! No any Day Off")
 
-elif(day=="wednesday"):
+elif(day=="wednesday" or day =="wed"):
     print("Sorry! No any Day Off")
 
-elif(day=="Thursday" ):
+elif(day=="Thursday" or day =="thur" ):
     print("Sorry! No any Day Off")
 
-elif(day=="friday"):
+elif(day=="friday" or day =="fri"):
     print("Sorry! No any Day Off")
 
-elif(day=="saturday"):
+elif(day=="saturday" or day =="sat"):
     print("Sorry! No any Day Off")
 else:
     print("Sorry! Please Check the Day. This is Not exiting.")
