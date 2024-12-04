@@ -19,3 +19,5 @@ else:
         grade="F"
     
     print("The Grade Obtain By Student is:",grade)
+    
+input()
