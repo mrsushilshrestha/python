@@ -22,5 +22,10 @@ list.insert(2,5)
 print(list)
 
 
-#remove first occurance of element
-list.remove(1)
+#remove occurance of element
+list.remove(5) #remove five occurance of element
+print(list)
+
+#remove element at index
+list.pop(1)
+print(list)
