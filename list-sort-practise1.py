@@ -1,16 +1,11 @@
 #WAP to ask the user to enter names of their 3 favorite Movies & store them in a list
-print("Enter the 3 Movie Name:")
+print("Enter the 3 Movie Name: ")
 
 movie_name =[] #making empty list
 
-movie_1 = input()
-movie_name.append(movie_1)
-
-movie_2 = input()
-movie_name.append(movie_2)
-
-movie_3 = input()
-movie_name.append(movie_3)
+movie_name.append(input("Enter the First Movie "))
+movie_name.append(input("Enter the Second Movie "))
+movie_name.append(input("Enter the Third Movie "))
 
 print("The Name Of the Movie is Listed:")
 print(movie_name)
