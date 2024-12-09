@@ -1,15 +1,14 @@
-#this is pseudo code for print the number between 1 to 100 
-i=0
-top:
-if(i<100): 
-  print(i+1)
-  i=i+1
-  if(i%2==0):
-      print(f"Even Number:{i}")
-  else:
-      print(f"Odd Number:{i}")
-  goto :top
+number =int(input("Enter the Number to check prime:"))
+count =0
+start =1
 
-
-
-
+while start<number:
+    if number%start ==0:
+        count=count+1
+    start=start+1
+        
+        
+if(count>2):
+        print(f"This Number is Composite Number{number}")
+else:
+        print(f"The Number is Prime Number{number}")   
