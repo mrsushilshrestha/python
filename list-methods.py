@@ -9,11 +9,13 @@ string_list.sort() #sort string in ascending order
 print(list)
 print(string_list)
 
+print("reverse")
 list.sort(reverse=True) #sort descending order
 print(list)
 
 list.reverse() #reverses list
 print(list)
+
 
 #.insert(index,Element) #insert element at index 
 #It add the element at the particular index or position
