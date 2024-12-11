@@ -7,17 +7,4 @@ list_constructor.append("mango")
 print(list_constructor)
 
 for item in first_list: #loop in list
-    print(item)
-    
-
-#WAP to remove duplication item from list ["apple","ball", "cat","5"."7","5"]
-
-list_duplication = ["apple","ball","ball", "cat","5""7","5"]
-
-for items in list_duplication:
-    if(items==list_duplication):
-        continue
-    
-print(items)
-      
-     
+    print(item)    
