@@ -22,6 +22,6 @@
 
 #### list,list-method
 
-### Tuples,Tuple-function
+#### Tuples,Tuple-function
 
-### Swiping Element ,Without using the temp
+#### Swiping Element ,Without using the temp
