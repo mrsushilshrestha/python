@@ -31,3 +31,11 @@ print(list)
 #remove element at index
 list.pop(1)
 print(list)
+
+#copy the data from one list to another
+second_list =list.copy()
+print(second_list)
+
+#it clear the all the data from the list
+list.clear()
+print(list)
