@@ -1,5 +1,7 @@
 marks =[20,21,22,23] #identify list
 
+print(marks.index(23))#to print occurance idex position
+
 print(marks)
 print(marks[0])  #print list value staring from 0
 print(type(marks)) #check the types of the variable 
