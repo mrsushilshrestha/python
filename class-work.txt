@@ -1,0 +1,11 @@
+1.	What is data structure ?
+2.	Types of data structure
+3.	What is list with example? How to create list? How to access list iteams using the while loop for and loop
+How to add items and remove from list? How to change values of list?
+4.	Data =[1,2,4] , data[2]= ?
+5.	What is dictionary with example ?how to create dictionary?
+How can you access item from dictionary,
+How to add key and value to dictionary,
+How to change value of specific key in dictionary
+
+
