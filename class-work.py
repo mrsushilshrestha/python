@@ -48,7 +48,6 @@ else:
     pass
 
 #what is dictionary with example? how to create dictionary?
-
 #create dictionary
 create_dict ={} 
 create_dict={"name":"sushil","class":"bachelor","subject":{
@@ -63,3 +62,4 @@ print(create_dict["subject"]["english"])
 
 #change value of specific key in dictionary
 create_dict["name"]="Shayam"
+print(create_dict)
