@@ -59,6 +59,8 @@ create_dict={"name":"sushil","class":"bachelor","subject":{
 print(create_dict["name"])
 print(create_dict["subject"]["english"])
 
+#add key and value to dictionary
+create_dict["surname"]= "shrestha"
 
 #change value of specific key in dictionary
 create_dict["name"]="Shayam"
