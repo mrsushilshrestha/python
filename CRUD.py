@@ -1,6 +1,6 @@
-option = 1
-total_data = []
-while option == 1:
+command ='y'
+total_result=[]
+while command =='y':
     welcome_message = """
     ***Welcome The College Management System***
     1) Create record
@@ -10,41 +10,59 @@ while option == 1:
     5) Exit From System
     """
     print(welcome_message)
-
-    num = int(input("Enter the Options: "))
-    list_student_detail = []
     
-
-    if num == 1:
-        dic_student = {}
-        dic_student["id"] = int(input("Enter the ID of Student: "))
+    option =int(input("Enter The Following Option[1,2,3,4]: ")) #take user input
+        
+    if option == 1:     
+        dic_student={}
+        dic_student["id"] = input("Enter the ID of Student: ")
         dic_student["name"] = input("Enter the Name: ")
         dic_student["roll"] = input("Enter the Roll No: ")
         dic_student["subject"] = input("Enter the Subject: ")
-
-        total_data.append(dic_student)  
-
-    elif num == 2:
-        search_input = input("Enter the element you want to search: ")
-        found = False 
-        for items in total_data:
-            if search_input == items["name"]:
-                print("Search found!!!")
-                print(items) 
+    
+        total_result.append(dic_student)
+        print(total_result)
+    
+    elif option ==2:
+        user_search = input("Enter the Name For Search ")
+        for items in total_result:
+            if user_search ==items["name"]:
+                print(items)
             else:
-                print("Not found")
+                print("No Any Data Found!!!")
                 
-    elif num== 4:
-        
-        id=int(input("Enter the name for remove"))
-        if id in (total_data):
-            del total_data[id]
-        else:
-            print("Id Not Found")
-
+    elif option==3:
+        user_update =input("Enter the name for update!!! ")
+        for items_update in total_result:
+            if user_update == items_update["name"]:
+                items_update["name"] =input("Enter New Name For Modification ")
+                print("Update Successfully !!! ")
+                print(f"New Update: {items_update}")
+                
+            else:
+                print("Data Doesn't Exit!!! ")
+    
+    elif option ==4:
+        user_delete =input("Enter the Name for delete")
+        for items_delete in total_result:
+            if user_delete ==items_delete["name"]:
+                del items_delete["id"]
+                del items_delete["name"]
+                del items_delete["roll"]
+                del items_delete["subject"]
+                
+                print("Deteled Successfully!")
+                print(items_delete)
+            else:
+                print("No Data Found !!!")
     else:
-        print("Invalid Option or No Data Found!!!")
+        print("invalid!!!")
         
-
-
-    option = int(input("Enter 1 to continue or 0 to end: "))
+    
+    command=input("Do You Want To continue ")
+    if command =='n':
+        print("Thank You For using Our service!!!")
+        command='n'
+    else:
+        print("Welcome Back!!!")
+        command='y'
