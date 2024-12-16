@@ -30,7 +30,7 @@
 
 #### Set in Python And Its Methods
 
-#### ome Practise Question About Dictionary, List , Tupple,[CRUD Operations]
+#### some Practise Question About Dictionary, List , Tupple,[CRUD Operations]
 
 #### List Compression In Python
 
