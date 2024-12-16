@@ -1,0 +1,14 @@
+#pseudocode For find prime number in python
+1. INPUT num  # Get the number to check
+2. SET count = 0
+3. SET start = 1
+
+4. WHILE start <= num
+      a. IF num MOD start == 0
+            INCREMENT count
+      b. INCREMENT start
+
+5. IF count == 2
+      PRINT "num is a prime number"
+   ELSE
+      PRINT "num is a composite number"

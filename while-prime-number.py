@@ -1,4 +1,5 @@
-num=int(input())
+#To find the Prime Number using While Loop 
+num=int(input("Enter the Number to Know this number is Prime Or Composite Number"))
 count=0
 start=1
 while start<=num:
