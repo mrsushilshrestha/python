@@ -60,9 +60,11 @@ while command =='y':
         
     
     command=input("Do You Want To continue ")
-    if command =='n':
-        print("Thank You For using Our service!!!")
+    if command =='y':
+        print("Welcome Back!!!")
+        command='y'        
+    elif command =='n':       
+        print("Thank You For Using Our service!!!")
         command='n'
     else:
-        print("Welcome Back!!!")
-        command='y'
+        print("Invalid Options")
