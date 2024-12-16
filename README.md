@@ -25,3 +25,14 @@
 #### Tuples,Tuple-function
 
 #### Swiping Element ,Without using the temp
+
+#### Dictionary and Its Methods
+
+#### Set in Python And Its Methods
+
+### Some Practise Question About Dictionary, List , Tupple,[CRUD Operations]
+
+#### List Compression In Python
+
+#### Function in Python 
+
