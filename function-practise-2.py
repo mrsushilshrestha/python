@@ -1,4 +1,4 @@
-#Making Calculater using functions
+#Making Calculator using functions
 
 def add(number_first,number_second):
     print(number_first+number_second)
