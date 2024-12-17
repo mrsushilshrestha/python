@@ -1,6 +1,3 @@
-#Making Calculator using functions
-command ='y'
-while command=='y':
 def add(number_first,number_second):
     print(number_first+number_second)
 
@@ -39,6 +36,4 @@ elif operator=='/' or 4:
 else:
     print("INVALID!!!")
     
-command= input("Enter the y/n for continue or stop system")
-if(command=='y')
 
