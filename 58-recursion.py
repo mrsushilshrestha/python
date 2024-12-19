@@ -1,10 +1,22 @@
-#Recursion in Python
+#recursion Introduction
+def display(num):
+    print(num*num)
+    if num<9:
+        display(num+1)
+    
+display(0)
+    
 
-def display(n):
-    if n==0:   #base case or control
-        return 
+# Recursion in Python
+# def display(n):
+#     if n==0:   #base case or control
+#         return 
 
-    print(n)
-    display(n-1)
+#     print(n)
+#     display(n-1)
 
-display(5)
+# display(5)
+
+
+
+
