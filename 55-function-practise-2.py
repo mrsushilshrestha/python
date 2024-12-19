@@ -4,7 +4,7 @@ def add(number_first,number_second):
 def sub(number_first,number_second):
     print(number_first-number_second)
     
-def mul(number_first,number_second):
+def mul(number_first,number_second): 
     print(number_first*number_second)
 
 def div(number_first ,number_second):
