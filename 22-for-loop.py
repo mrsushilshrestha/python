@@ -1,4 +1,5 @@
 # Demonstration of for loops in Python
+#for i in range(star, stop,step or increase/decrease)
 
 # Basic for loop: Print numbers from 0 to 10
 print("Numbers from 0 to 10:")
