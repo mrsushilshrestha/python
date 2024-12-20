@@ -17,3 +17,17 @@ example_dictionary ={"name":"sushil","roll":"12","address":"kathmandu"}
 Tuples are used to store multiple items in a single variable.
 
 example_tuple = ("apple", "banana", "cherry")
+
+4.set
+A Python set is the collection of the unordered items.
+Each element in the set must be unique, immutable, and the sets remove the duplicate elements.
+
+example_set ={}
+example_set={"apple","ball",1,4}
+
+#count string
+name =input("Enter the element ")
+stringlen =len(name)
+space_count = name.count( " ")
+total_string =stringlen-space_count
+print(total_string)
