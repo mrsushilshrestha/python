@@ -1,0 +1,19 @@
+#what  is different between list dictionary ,tuple and set with example.
+#example with (create,delete items,access,add items)?
+
+1.list
+A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements. It declare By 
+example_list =[]
+
+example_list=[1,2,3,4,5]
+
+2.dictionary
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+
+example_dictionary ={"name":"sushil","roll":"12","address":"kathmandu"}
+
+3.tuple 
+Tuples are used to store multiple items in a single variable.
+
+example_tuple = ("apple", "banana", "cherry")
