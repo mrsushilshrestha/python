@@ -1,14 +1,18 @@
-#for i in range(star, stop,step or increase/decrease)
+# Demonstration of for loops in Python
 
-for i in range(0,11): #print number from 1 to 10
+# Basic for loop: Print numbers from 0 to 10
+print("Numbers from 0 to 10:")
+for i in range(0, 11): 
     print(i)
 print("\n")
-    
 
-for i in range(0,11,2): #print the number from 1 to 10 by increase by 2
+# For loop with a step: Print numbers from 0 to 10, increasing by 2
+print("Numbers from 0 to 10 with a step of 2:")
+for i in range(0, 11, 2): 
     print(i)
 print("\n")
-    
 
-for i in range(10,0,-1): #print list descending orders
+# For loop with a negative step: Print numbers from 10 to 1 in descending order
+print("Numbers from 10 to 1 in descending order:")
+for i in range(10, 0, -1): 
     print(i)
