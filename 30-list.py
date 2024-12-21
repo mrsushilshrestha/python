@@ -1,3 +1,5 @@
+#list in python
+
 marks =[20,21,22,23] #identify list
 
 print(marks)  # to print the list
