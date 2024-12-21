@@ -35,5 +35,5 @@
 #### List Compression In Python
 
 #### Function in Python 
-[30-list.py](python/blob/main/30-list.py)
+[30-list.py](30-list.py)
 
