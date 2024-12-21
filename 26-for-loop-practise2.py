@@ -1,3 +1,4 @@
+#search the number form given list.
 list_variable =[1,2,3,4,5,6,2,8,2]
 number=int(input("Enter the Number for search: "))
 idx=0
