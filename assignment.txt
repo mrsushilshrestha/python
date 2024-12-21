@@ -25,6 +25,7 @@ Each element in the set must be unique, immutable, and the sets remove the dupli
 example_set ={}
 example_set={"apple","ball",1,4}
 
+WAP to count the word of string enter by user.
 #count string
 name =input("Enter the element ")
 stringlen =len(name)

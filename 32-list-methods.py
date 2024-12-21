@@ -1,3 +1,6 @@
+#list method in python which already make by developer for make easy future for task
+#list Methods
+
 list = [1,3,2]
 string_list = ["Sushil" ,"Sailendra" , "Ashish"]
 

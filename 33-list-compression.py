@@ -1,3 +1,5 @@
+#list compression
+
 #using list compression add 100 to each data
 data =[1,2,3,4,5,6]
 

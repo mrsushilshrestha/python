@@ -1,12 +1,11 @@
 marks =[20,21,22,23] #identify list
 
-print(marks.index(23))#to print occurance idex position
-
-print(marks)
+print(marks)  # to print the list
 print(marks[0])  #print list value staring from 0
 print(type(marks)) #check the types of the variable 
 print(len(marks)) #check the lengt
 
+print(marks.index(23))#to print occurance idex position
 
 #In python we can store diffrent data type in one variable 
 std_detail = [1,"Sushil Shrestha","Kathmandu_Nepal"]

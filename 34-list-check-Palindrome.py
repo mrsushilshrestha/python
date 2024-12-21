@@ -1,7 +1,5 @@
-#check the palindrome In python
+#WAP to check the palindrome In python
 list1=[1,2,3,1]
-
-
 
 list_copy=list1.copy()
 list_copy.reverse()
