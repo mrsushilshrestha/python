@@ -35,4 +35,5 @@
 #### List Compression In Python
 
 #### Function in Python 
+[30-list.py](python/30-list.py)
 
