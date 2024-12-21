@@ -20,7 +20,7 @@
 
 #### Control Statement
 
-#### list,list-method
+#### [list,list-method](30-list.py)
 
 #### Tuples,Tuple-function
 
@@ -35,5 +35,4 @@
 #### List Compression In Python
 
 #### Function in Python 
-[Python](30-list.py)
 
