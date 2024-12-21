@@ -6,7 +6,7 @@
 
 #### First Display Programming in Python
 
-#### Input In python
+### Input In python
 
 #### Data Conversion In Python
 
