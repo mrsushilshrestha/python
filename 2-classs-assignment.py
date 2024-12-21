@@ -33,16 +33,19 @@ create_dictionary ={"name":"sushil","roll":"12","class":"bachelor"}
 
 
 # delete update
-delete_update=list(create_dictionary)
+delete_update=[]
+delete_update.append(create_dictionary)
+print(delete_update)
 delete_items=input("Enter the element: ")
-for items_delete in create_dictionary:
+for items_delete in delete_update:
     if items_delete["name"]==delete_items:
-        items_delete.remove(["name"])
-        print("new element in dictionary is: ",delete_update)
-        print(delete_update)
-else:
-    print("date Not found!")
+        print("Items Found!!!")
+        delete_update.remove(items_delete)
+        # del items_delete["name"]
+        print(items_delete)
+    else:
+        print("date Not found!")
 
 
-
+print(delete_update)
 

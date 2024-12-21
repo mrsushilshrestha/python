@@ -43,13 +43,14 @@ while command =='y':
                 print("Data Doesn't Exit!!! ")
     
     elif option ==4:
-        user_delete =input("Enter the Name for delete")
+        user_delete =input("Enter the Name for delete ")
         for items_delete in total_result:
             if user_delete ==items_delete["name"]:
-                del items_delete["id"]
-                del items_delete["name"]
-                del items_delete["roll"]
-                del items_delete["subject"]
+                # del items_delete["id"]
+                # del items_delete["name"]
+                # del items_delete["roll"]
+                # del items_delete["subject"]
+                total_result.remove(items_delete)
                 
                 print("Deteled Successfully!")
                 print(items_delete)
