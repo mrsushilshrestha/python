@@ -20,7 +20,7 @@ print(fact)
 
 #factorial using the recursion
 def factorial(num):
-    if num==0:
+    if num==0:     # Base case: factorial of 0 or 1 is 1
         return 1
     elif num==1:
         return 1
