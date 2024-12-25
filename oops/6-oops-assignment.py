@@ -1,28 +1,40 @@
-class calculators:
-    
-    def __init__(self,length=1,breath=1,height=1,radious=1):
+import math
+
+class Calculator:
+    def __init__(self,option, length=1, breadth=1, radius=1):
+        self.option =option
         self.length = length
-        self.breath = breath
-        self.height = height
-        self.radious=radious
+        self.breadth = breadth
+        self.radius = radius
         
-    
-    def rectangle_area(self):
-        return self.length*self.breath*self.height
-    
-    def circle_area(self):
-        return self.radious**2
+    def operations(self):
+        if self.option ==1:
+            return self.length * self.breadth
 
-length =int(input("Enter the length :- "))
-breath =int(input("Enter the breath :- "))
-height =int(input("Enter the height :- "))
-radious =int(input("Enter the radious :-"))
+        elif self.option ==2:
+            return math.pi * (self.radius ** 2)
+        
+        elif self.option ==3:
+            return length**2
+        
+        else:
+            print("Invalid Options")
 
 
-obj1 = calculators(length,breath,height,radious)
+message ="""
+Select the Option[1,2,3] to perform Calculation:
+1.Rectangle
+2.Circle
+3.Square
+"""
+# Taking input from the user
+option =int(input(message))
+length = int(input("Enter the length: "))
+breadth = int(input("Enter the breadth: "))
+radius = int(input("Enter the radius: "))
 
-area_rectnage =obj1.rectangle_area()
-print("Are of rectange is:",area_rectnage)
+# Creating an object of the Calculator class
+obj1 = Calculator(option,length, breadth, radius)
 
-area_circle =obj1.circle_area()
-print("Are of Circle is:",area_circle)
+result=obj1.operations()
+print("The Result is",result)
