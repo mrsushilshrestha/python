@@ -1,24 +1,37 @@
 import math
 
 class Calculator:
-    def __init__(self,option, length=1, breadth=1, radius=1):
+    def __init__(self,option):
         self.option =option
-        self.length = length
-        self.breadth = breadth
-        self.radius = radius
         
     def operations(self):
-        if self.option ==1:
-            return self.length * self.breadth
+        if self.option ==1: # or "Rectangle" or "rectangle": #For Rectangle
+            self.option= "Rectangle" 
+            length =int(input("Enter the Length: "))
+            breadth =int(input("Enter the Breadth: "))
+            return self.rectangle(length,breadth)
 
-        elif self.option ==2:
-            return math.pi * (self.radius ** 2)
+        elif self.option ==2: # or "Circle" or "circle": #For Circle
+            self.option= "Circle"
+            radius =int(input("Enter the Radius of Circle: "))
+            return self.circle(radius)
         
-        elif self.option ==3:
-            return length**2
+        elif self.option ==3: # or "Square" or "square": #For Square
+            self.option= "Square"
+            length=int(input("Enter the lenght: "))
+            return self.square(length)
         
         else:
             print("Invalid Options")
+        
+    def rectangle(self,length,breadth):  #Rectangle Area
+        return length * breadth
+    
+    def circle(self,radius):    #Circle Area
+        return math.pi * radius ** 2
+    
+    def square(self,length): #Square Area
+        return length**2
 
 
 message ="""
@@ -27,14 +40,11 @@ Select the Option[1,2,3] to perform Calculation:
 2.Circle
 3.Square
 """
-# Taking input from the user
-option =int(input(message))
-length = int(input("Enter the length: "))
-breadth = int(input("Enter the breadth: "))
-radius = int(input("Enter the radius: "))
+
+option = int(input(message))
 
 # Creating an object of the Calculator class
-obj1 = Calculator(option,length, breadth, radius)
+obj1 = Calculator(option)
 
 result=obj1.operations()
-print("The Result is",result)
+print(f"The Area of {obj1.option} is",result)
