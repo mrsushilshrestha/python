@@ -1,28 +1,50 @@
-class calculators:
-    
-    def __init__(self,length=1,breath=1,height=1,radious=1):
-        self.length = length
-        self.breath = breath
-        self.height = height
-        self.radious=radious
+import math
+
+class Calculator:
+    def __init__(self,option):
+        self.option =option
         
+    def operations(self):
+        if self.option ==1: # or "Rectangle" or "rectangle": #For Rectangle
+            self.option= "Rectangle" 
+            length =int(input("Enter the Length: "))
+            breadth =int(input("Enter the Breadth: "))
+            return self.rectangle(length,breadth)
+
+        elif self.option ==2: # or "Circle" or "circle": #For Circle
+            self.option= "Circle"
+            radius =int(input("Enter the Radius of Circle: "))
+            return self.circle(radius)
+        
+        elif self.option ==3: # or "Square" or "square": #For Square
+            self.option= "Square"
+            length=int(input("Enter the lenght: "))
+            return self.square(length)
+        
+        else:
+            print("Invalid Options")
+        
+    def rectangle(self,length,breadth):  #Rectangle Area
+        return length * breadth
     
-    def rectangle_area(self):
-        return self.length*self.breath*self.height
+    def circle(self,radius):    #Circle Area
+        return math.pi * radius ** 2
     
-    def circle_area(self):
-        return self.radious**2
-
-length =int(input("Enter the length :- "))
-breath =int(input("Enter the breath :- "))
-height =int(input("Enter the height :- "))
-radious =int(input("Enter the radious :-"))
+    def square(self,length): #Square Area
+        return length**2
 
 
-obj1 = calculators(length,breath,height,radious)
+message ="""
+Select the Option[1,2,3] to perform Calculation:
+1.Rectangle
+2.Circle
+3.Square
+"""
 
-area_rectnage =obj1.rectangle_area()
-print("Are of rectange is:",area_rectnage)
+option = int(input(message))
 
-area_circle =obj1.circle_area()
-print("Are of Circle is:",area_circle)
+# Creating an object of the Calculator class
+obj1 = Calculator(option)
+
+result=obj1.operations()
+print(f"The Area of {obj1.option} is",result)
