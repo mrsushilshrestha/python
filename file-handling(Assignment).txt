@@ -1,0 +1,2 @@
+Hello this is 'r+'file Mode We Check the operation.678910.
+Hello this is 'a+' file Mode.
