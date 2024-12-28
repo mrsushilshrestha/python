@@ -47,31 +47,26 @@ class Computer_shop:
         with open(self.path,"w+") as f:
             f.write(new_data)
             
-    #DANGER!!!
-    def delete_function(self): #delete function
-       with open(self.path,"r")as file:
-            data = True
-            # line=1
-            word="hi"
-            while data:
-                data=file.readline()
-                if word in data:
-                    data.remove("wor")
-                    return
-                else:
-                    # line+=1
-                    pass
-            return print("Not Found!!!") 
-    
-    
-    
-    def delete_function(self): #delete function
-       with open(self.path,"r") as f:
-           data = f.readline()
-           
-           
-           
 
+    #Delete line
+    #Internet Reference
+    #some Contant idea take from internet
+    def delete_function(self, word):  # Delete function
+        with open(self.path, "r") as file:
+            lines = file.readlines()  # Read all lines from the file
+
+        with open(self.path, "w") as file:
+            found = False
+            for line in lines:
+                if word not in line:  
+                    file.write(line)  # Write back lines that don't contain the word
+                else:
+                    found = True  # Mark the word as found and skip writing this line
+        
+        if found:
+            print(f"Entries containing '{word}' have been deleted successfully!")
+        else:
+            print(f"No entries containing '{word}' were found.")
 
 
 
@@ -107,8 +102,9 @@ elif option=='3': #for read data
     update_name =input("Enter the Name Of Customer: ")    
     computer_shop_obj.update_function(old_name,update_name)
     
-elif option=='4': #for read data
-    computer_shop_obj.delete_function()
-    
+elif option == '4':  # Delete data
+    word = input("Enter the word or name to delete entries: ")
+    computer_shop_obj.delete_function(word)
+
 else:
     print("Invalid Option !!!")

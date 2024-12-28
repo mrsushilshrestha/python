@@ -1,6 +1,6 @@
-sushil shrestha, acer, 1
 shiva, mac, 3, 
 hari,apple,4
-dibisha, apple, 21
 grishma, mac mini, 12
 tekraj Shrestha, Apple Mac, 1
+sushil, 1, 2
+sushil, 1, 11
