@@ -1,4 +1,4 @@
-import os
+# import os
 class Computer_shop:
 
     def __init__(self,path): 
@@ -49,9 +49,28 @@ class Computer_shop:
             
     #DANGER!!!
     def delete_function(self): #delete function
-        # os.remove(path)
-        print("Sorry This Feature Not Available At The Moment!!! ")
-        pass
+       with open(self.path,"r")as file:
+            data = True
+            # line=1
+            word="hi"
+            while data:
+                data=file.readline()
+                if word in data:
+                    data.remove("wor")
+                    return
+                else:
+                    # line+=1
+                    pass
+            return print("Not Found!!!") 
+    
+    
+    
+    def delete_function(self): #delete function
+       with open(self.path,"r") as f:
+           data = f.readline()
+           
+           
+           
 
 
 
