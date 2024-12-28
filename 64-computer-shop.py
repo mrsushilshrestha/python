@@ -1,3 +1,4 @@
+import os
 class Computer_shop:
 
     def __init__(self,path):
@@ -8,16 +9,25 @@ class Computer_shop:
         self.brand =brand
         self.id =id
 
-        with open(self.path,"w")as file:
+        with open(self.path,"a+")as file:
             file.write(self.name+", ")
             file.write(self.brand+", ")
             file.write(self.id) 
             file.write("\n")           
 
-    def read_function(self): #read function
+    def read_function(self,word): #read function
         with open(self.path,"r")as file:
-            data=file.read()
-            print(data)
+            data = True
+            line=1
+            while data:
+                data=file.readline()
+                if word in data:
+                    print(data)
+                    return
+                else:
+                    # line+=1
+                    pass
+            return print("Not Found!!!")     
 
     def update_function(self,update_name,update_brand,update_id): #update function
         self.update_name =update_name
@@ -30,8 +40,9 @@ class Computer_shop:
             file.write(self.update_id+", ")
             file.write("\n")           
 
-
+    #DANGER!!!
     def delete_function(self): #delete function
+        # os.remove(path)
         pass
 
 
@@ -56,7 +67,8 @@ if option=='1': #Write data
     computer_shop_obj.write_function(name,brand,id)
 
 elif option=='2': #for read data
-    computer_shop_obj.read_function()
+    word=input("Enter the data To search: ")
+    computer_shop_obj.read_function(word)
     
 elif option=='3': #for read data
     print("Welcome Back! \nEnter the Data ")
