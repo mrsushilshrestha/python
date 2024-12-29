@@ -48,4 +48,4 @@ Here are some snapshots of my code:
 
 ## Snapshot 3
 ![Code Snapshot 3](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/day-1-1.png)
-![tuple.png](https://github.com/mrsushilshrestha/python/blob/main/image\tuple.png)
+![tuple ](https://github.com/mrsushilshrestha/python/blob/main/image\tuple.png)
