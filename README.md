@@ -36,3 +36,15 @@
 
 #### Function in Python 
 
+# Code Snapshots
+
+Here are some snapshots of my code:
+
+## Snapshot 1
+![Code Snapshot 1](python\100-day-Challange\image\day-1-1.png)
+
+## Snapshot 2
+![Code Snapshot 2](images/snapshot2.png)
+
+## Snapshot 3
+![Code Snapshot 3](images/snapshot3.png)
