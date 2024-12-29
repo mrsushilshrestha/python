@@ -1,3 +1,4 @@
+#Perform the CRUD(Create , Read , Update ,Delete) in Python using List ,Dictionary,Tupple
 command ='y'
 total_result=[]
 while command =='y':
@@ -13,7 +14,7 @@ while command =='y':
     
     option =int(input("Enter The Following Option[1,2,3,4]: ")) #take user input
         
-    if option == 1:     
+    if option == 1: #create Record     
         dic_student={}
         dic_student["id"] = input("Enter the ID of Student: ")
         dic_student["name"] = input("Enter the Name: ")
@@ -23,7 +24,7 @@ while command =='y':
         total_result.append(dic_student)
         print(total_result)
     
-    elif option ==2:
+    elif option ==2: #read Record
         user_search = input("Enter the Name For Search ")
         for items in total_result:
             if user_search ==items["name"]:
@@ -31,7 +32,7 @@ while command =='y':
             else:
                 print("No Any Data Found!!!")
                 
-    elif option==3:
+    elif option==3: #update record(Rename or Update Name)
         user_update =input("Enter the name for update!!! ")
         for items_update in total_result:
             if user_update == items_update["name"]:
@@ -42,7 +43,7 @@ while command =='y':
             else:
                 print("Data Doesn't Exit!!! ")
     
-    elif option ==4:
+    elif option ==4: #delete Record
         user_delete =input("Enter the Name for delete ")
         for items_delete in total_result:
             if user_delete ==items_delete["name"]:
@@ -57,10 +58,10 @@ while command =='y':
             else:
                 print("No Data Found !!!")
     else:
-        print("invalid!!!")
+        print("invalid!!!") #This Execute if option not [1,2,3,4]
         
     
-    command=input("Do You Want To continue ")
+    command=input("Do You Want To continue ") #for continue opeation or Control while loop
     if command =='y':
         print("Welcome Back!!!")
         command='y'        
