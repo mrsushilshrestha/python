@@ -1,6 +1,6 @@
 # Image Files Snapshot
 
-[CRUD background.png](https://github.com/mrsushilshrestha/python/blob/main/image\CRUD background.png)
+![CRUD background.png](https://github.com/mrsushilshrestha/python/blob/main/image\CRUD background.png)
 ![day-1-1.png](https://github.com/mrsushilshrestha/python/blob/main/image\day-1-1.png)
 ![day-1-2.png](https://github.com/mrsushilshrestha/python/blob/main/image\day-1-2.png)
 ![day-1.png](https://github.com/mrsushilshrestha/python/blob/main/image\day-1.png)
