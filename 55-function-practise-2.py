@@ -1,17 +1,19 @@
-def add(number_first,number_second):
+#WAF for Calculator , Feature addition Subtraction, Multiplication, Division
+def add(number_first,number_second): #addition function
     print(number_first+number_second)
 
-def sub(number_first,number_second):
+def sub(number_first,number_second): #subtraction function
     print(number_first-number_second)
     
-def mul(number_first,number_second): 
+def mul(number_first,number_second):  #multiplication function
     print(number_first*number_second)
 
-def div(number_first ,number_second):
+def div(number_first ,number_second): #division function
     if number_second>0:
         print(number_first/number_second)
     else:
         print("Number NOT Divided By Zero")
+
 
 message ="""
 Enter the Option What you want!!!!
