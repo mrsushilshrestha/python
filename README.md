@@ -44,7 +44,7 @@ Here are some snapshots of my code:
 ![Code Snapshot 1](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/day-1.png)
 
 ## Snapshot 2
-![Code Snapshot 2](images/snapshot2.png)
+![Code Snapshot 2](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/day-1-2.png)
 
 ## Snapshot 3
-![Code Snapshot 3](images/snapshot3.png)
+![Code Snapshot 3](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/day-1-1.png)
