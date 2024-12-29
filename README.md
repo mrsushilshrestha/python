@@ -48,3 +48,8 @@ Here are some snapshots of my code:
 
 ## Snapshot 3
 ![Code Snapshot 3](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/day-1-1.png)
+# View Updated Image Gallery
+
+Click the link below to view the interactive image gallery:
+
+[View Updated Gallery](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image-gallery.html)
