@@ -1,13 +1,13 @@
 Here are some snapshots of my code:
 
 ## Snapshot 1
-![Code Snapshot 1](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/CRUD background.png)
+![Code Snapshot 1](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/CRUD-background.png)
 
 ## Snapshot 2
-![Code Snapshot 2](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/DSA in python-background.png)
+![Code Snapshot 2](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/DSA-in-python-background.png)
 
 ## Snapshot 3
-![Code Snapshot 3](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/DSA in python.png)
+![Code Snapshot 3](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/DSA-in-python.png)
 
 ## Snapshot 4
 ![Code Snapshot 4](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/day-1-1.png)
