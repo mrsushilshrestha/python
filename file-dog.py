@@ -20,17 +20,21 @@ def scan_and_generate_markdown():
     markdown_links = []
 
     # Loop through all files in the image directory
-    for filename in os.listdir(directory_to_watch):
-        # Check if the file is an image (based on the extension)
-        if filename.lower().endswith(image_extensions):
-            # Construct the GitHub URL for the image file
-            file_url = f"https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/{os.path.join('image', filename)}"
-            # Append the formatted markdown link to the list
-            markdown_links.append(f"![{filename}]({file_url})")
+    image_files = [f for f in os.listdir(directory_to_watch) if f.lower().endswith(image_extensions)]
+    
+    # Sort the files alphabetically (if you want a specific order)
+    image_files.sort()
+
+    # Loop through each image file and create the markdown format
+    for i, filename in enumerate(image_files, start=1):
+        # Construct the GitHub URL for the image file
+        file_url = f"https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/{filename}"
+        # Append the formatted markdown link to the list
+        markdown_links.append(f"## Snapshot {i}\n![Code Snapshot {i}]({file_url})\n")
     
     # Save the markdown links to the program-snap.md file
     with open(md_file_path, "w") as md_file:
-        md_file.write("# Image Files Snapshot\n\n")
+        md_file.write("Here are some snapshots of my code:\n\n")
         for link in markdown_links:
             md_file.write(link + "\n")
     
