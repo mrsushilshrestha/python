@@ -31,6 +31,7 @@
 #### Set in Python And Its Methods
 
 #### some Practise Question About Dictionary, List , Tupple,[CRUD Operations]
+![CRUD background](https://github.com/user-attachments/assets/c39e5c4d-1976-4bd1-841f-03bc279de469)
 
 #### List Compression In Python
 
