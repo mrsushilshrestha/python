@@ -24,7 +24,7 @@ def scan_and_generate_markdown():
         # Check if the file is an image (based on the extension)
         if filename.lower().endswith(image_extensions):
             # Construct the GitHub URL for the image file
-            file_url = f"https://github.com/mrsushilshrestha/python/blob/main/{os.path.join('image', filename)}"
+            file_url = f"https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/{os.path.join('image', filename)}"
             # Append the formatted markdown link to the list
             markdown_links.append(f"![{filename}]({file_url})")
     
