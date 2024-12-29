@@ -41,7 +41,7 @@
 Here are some snapshots of my code:
 
 ## Snapshot 1
-![Code Snapshot 1](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/day-1-1.png)
+![Code Snapshot 1](https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/day-1.png)
 
 ## Snapshot 2
 ![Code Snapshot 2](images/snapshot2.png)
