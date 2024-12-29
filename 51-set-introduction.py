@@ -1,3 +1,5 @@
+# Set in Python
+# Set: Mutable, Unordered
 set_values1 ={"apple","mango","ball","cat"}
 set_values2 ={"dog","rabbit","apple","mango","graves"}
 
