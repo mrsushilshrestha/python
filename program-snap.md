@@ -1,176 +1,320 @@
-Here are some snapshots of my code:
 
-## Snapshot 1
-![Code Snapshot 1](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-1-1.png)
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Grid Gallery</title>
+        <style>
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            body { font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; padding: 20px; display: flex; justify-content: center; align-items: center; height: 100vh; }
+            .gallery-container { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; width: 90%; max-width: 1200px; background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+            .gallery-item { position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease; }
+            .gallery-item img { width: 100%; height: auto; border-radius: 10px; object-fit: cover; }
+            .gallery-item:hover { transform: scale(1.05); }
+            .image-caption { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(0, 0, 0, 0.6); color: white; padding: 10px 20px; font-size: 18px; border-radius: 5px; opacity: 0; transition: opacity 0.3s ease; }
+            .gallery-item:hover .image-caption { opacity: 1; }
+            @media (max-width: 1200px) { .gallery-container { grid-template-columns: repeat(3, 1fr); } }
+            @media (max-width: 768px) { .gallery-container { grid-template-columns: repeat(2, 1fr); } }
+            @media (max-width: 480px) { .gallery-container { grid-template-columns: 1fr; } }
+        </style>
+    </head>
+    <body>
 
-## Snapshot 2
-![Code Snapshot 2](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-1-2.png)
+    <div class="gallery-container">
+    
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-1-1.png" alt="Snapshot 1">
+            <div class="image-caption">Snapshot 1</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-1-2.png" alt="Snapshot 2">
+            <div class="image-caption">Snapshot 2</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-1.png" alt="Snapshot 3">
+            <div class="image-caption">Snapshot 3</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-10-1-Tupple-Method.png" alt="Snapshot 4">
+            <div class="image-caption">Snapshot 4</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-10-Tupple.png" alt="Snapshot 5">
+            <div class="image-caption">Snapshot 5</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-2-1.png" alt="Snapshot 6">
+            <div class="image-caption">Snapshot 6</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-2-2.png" alt="Snapshot 7">
+            <div class="image-caption">Snapshot 7</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-2.png" alt="Snapshot 8">
+            <div class="image-caption">Snapshot 8</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-3.png" alt="Snapshot 9">
+            <div class="image-caption">Snapshot 9</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-4-1.png" alt="Snapshot 10">
+            <div class="image-caption">Snapshot 10</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-4.png" alt="Snapshot 11">
+            <div class="image-caption">Snapshot 11</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-5.png" alt="Snapshot 12">
+            <div class="image-caption">Snapshot 12</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-6.png" alt="Snapshot 13">
+            <div class="image-caption">Snapshot 13</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-7-1.png" alt="Snapshot 14">
+            <div class="image-caption">Snapshot 14</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-7.png" alt="Snapshot 15">
+            <div class="image-caption">Snapshot 15</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-8-1.png" alt="Snapshot 16">
+            <div class="image-caption">Snapshot 16</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-8-2.png" alt="Snapshot 17">
+            <div class="image-caption">Snapshot 17</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-8-3.png" alt="Snapshot 18">
+            <div class="image-caption">Snapshot 18</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-8-output.png" alt="Snapshot 19">
+            <div class="image-caption">Snapshot 19</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-8.png" alt="Snapshot 20">
+            <div class="image-caption">Snapshot 20</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-1.png" alt="Snapshot 21">
+            <div class="image-caption">Snapshot 21</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-2.png" alt="Snapshot 22">
+            <div class="image-caption">Snapshot 22</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-3.png" alt="Snapshot 23">
+            <div class="image-caption">Snapshot 23</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-4.png" alt="Snapshot 24">
+            <div class="image-caption">Snapshot 24</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-5.png" alt="Snapshot 25">
+            <div class="image-caption">Snapshot 25</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-6.png" alt="Snapshot 26">
+            <div class="image-caption">Snapshot 26</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-7.png" alt="Snapshot 27">
+            <div class="image-caption">Snapshot 27</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9.png" alt="Snapshot 28">
+            <div class="image-caption">Snapshot 28</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-11.png" alt="Snapshot 29">
+            <div class="image-caption">Snapshot 29</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-11-1-dic-method.png" alt="Snapshot 30">
+            <div class="image-caption">Snapshot 30</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-11-0.png" alt="Snapshot 31">
+            <div class="image-caption">Snapshot 31</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/tuple.png" alt="Snapshot 32">
+            <div class="image-caption">Snapshot 32</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-11-dic.png" alt="Snapshot 33">
+            <div class="image-caption">Snapshot 33</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-CRUD.png" alt="Snapshot 34">
+            <div class="image-caption">Snapshot 34</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-CRUD-image.png" alt="Snapshot 35">
+            <div class="image-caption">Snapshot 35</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-CRUD-image2.png" alt="Snapshot 36">
+            <div class="image-caption">Snapshot 36</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-1-CRUD.png" alt="Snapshot 37">
+            <div class="image-caption">Snapshot 37</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-2-CRUD.png" alt="Snapshot 38">
+            <div class="image-caption">Snapshot 38</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-3-CRUD.png" alt="Snapshot 39">
+            <div class="image-caption">Snapshot 39</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-4-CRUD.png" alt="Snapshot 40">
+            <div class="image-caption">Snapshot 40</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-5-CRUD.png" alt="Snapshot 41">
+            <div class="image-caption">Snapshot 41</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-6-CRUD.png" alt="Snapshot 42">
+            <div class="image-caption">Snapshot 42</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-7-CRUD.png" alt="Snapshot 43">
+            <div class="image-caption">Snapshot 43</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/CRUD-background.png" alt="Snapshot 44">
+            <div class="image-caption">Snapshot 44</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-CRUD-Backgroud.png" alt="Snapshot 45">
+            <div class="image-caption">Snapshot 45</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/DSA-in-python.png" alt="Snapshot 46">
+            <div class="image-caption">Snapshot 46</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/DSA-in-python-background.png" alt="Snapshot 47">
+            <div class="image-caption">Snapshot 47</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-13-SET.png" alt="Snapshot 48">
+            <div class="image-caption">Snapshot 48</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-function.png" alt="Snapshot 49">
+            <div class="image-caption">Snapshot 49</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-1-function.png" alt="Snapshot 50">
+            <div class="image-caption">Snapshot 50</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-2-function.png" alt="Snapshot 51">
+            <div class="image-caption">Snapshot 51</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-3-function.png" alt="Snapshot 52">
+            <div class="image-caption">Snapshot 52</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-4-function.png" alt="Snapshot 53">
+            <div class="image-caption">Snapshot 53</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-5-function.png" alt="Snapshot 54">
+            <div class="image-caption">Snapshot 54</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-6-function.png" alt="Snapshot 55">
+            <div class="image-caption">Snapshot 55</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-15-recursion.png" alt="Snapshot 56">
+            <div class="image-caption">Snapshot 56</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-15-recursion-.png" alt="Snapshot 57">
+            <div class="image-caption">Snapshot 57</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/lamda.png" alt="Snapshot 58">
+            <div class="image-caption">Snapshot 58</div>
+        </div>
+        
+    </div>
 
-## Snapshot 3
-![Code Snapshot 3](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-1.png)
-
-## Snapshot 4
-![Code Snapshot 4](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-10-1-Tupple-Method.png)
-
-## Snapshot 5
-![Code Snapshot 5](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-10-Tupple.png)
-
-## Snapshot 6
-![Code Snapshot 6](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-2-1.png)
-
-## Snapshot 7
-![Code Snapshot 7](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-2-2.png)
-
-## Snapshot 8
-![Code Snapshot 8](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-2.png)
-
-## Snapshot 9
-![Code Snapshot 9](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-3.png)
-
-## Snapshot 10
-![Code Snapshot 10](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-4-1.png)
-
-## Snapshot 11
-![Code Snapshot 11](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-4.png)
-
-## Snapshot 12
-![Code Snapshot 12](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-5.png)
-
-## Snapshot 13
-![Code Snapshot 13](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-6.png)
-
-## Snapshot 14
-![Code Snapshot 14](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-7-1.png)
-
-## Snapshot 15
-![Code Snapshot 15](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-7.png)
-
-## Snapshot 16
-![Code Snapshot 16](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-8-1.png)
-
-## Snapshot 17
-![Code Snapshot 17](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-8-2.png)
-
-## Snapshot 18
-![Code Snapshot 18](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-8-3.png)
-
-## Snapshot 19
-![Code Snapshot 19](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-8-output.png)
-
-## Snapshot 20
-![Code Snapshot 20](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-8.png)
-
-## Snapshot 21
-![Code Snapshot 21](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-1.png)
-
-## Snapshot 22
-![Code Snapshot 22](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-2.png)
-
-## Snapshot 23
-![Code Snapshot 23](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-3.png)
-
-## Snapshot 24
-![Code Snapshot 24](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-4.png)
-
-## Snapshot 25
-![Code Snapshot 25](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-5.png)
-
-## Snapshot 26
-![Code Snapshot 26](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-6.png)
-
-## Snapshot 27
-![Code Snapshot 27](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9-7.png)
-
-## Snapshot 28
-![Code Snapshot 28](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-9.png)
-
-## Snapshot 29
-![Code Snapshot 29](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-11.png)
-
-## Snapshot 30
-![Code Snapshot 30](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-11-1-dic-method.png)
-
-## Snapshot 31
-![Code Snapshot 31](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-11-0.png)
-
-## Snapshot 32
-![Code Snapshot 32](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/tuple.png)
-
-## Snapshot 33
-![Code Snapshot 33](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-11-dic.png)
-
-## Snapshot 34
-![Code Snapshot 34](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-CRUD.png)
-
-## Snapshot 35
-![Code Snapshot 35](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-CRUD-image.png)
-
-## Snapshot 36
-![Code Snapshot 36](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-CRUD-image2.png)
-
-## Snapshot 37
-![Code Snapshot 37](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-1-CRUD.png)
-
-## Snapshot 38
-![Code Snapshot 38](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-2-CRUD.png)
-
-## Snapshot 39
-![Code Snapshot 39](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-3-CRUD.png)
-
-## Snapshot 40
-![Code Snapshot 40](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-4-CRUD.png)
-
-## Snapshot 41
-![Code Snapshot 41](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-5-CRUD.png)
-
-## Snapshot 42
-![Code Snapshot 42](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-6-CRUD.png)
-
-## Snapshot 43
-![Code Snapshot 43](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-7-CRUD.png)
-
-## Snapshot 44
-![Code Snapshot 44](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/CRUD-background.png)
-
-## Snapshot 45
-![Code Snapshot 45](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-12-CRUD-Backgroud.png)
-
-## Snapshot 46
-![Code Snapshot 46](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/DSA-in-python.png)
-
-## Snapshot 47
-![Code Snapshot 47](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-13-SET.png)
-
-## Snapshot 48
-![Code Snapshot 48](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/DSA-in-python-background.png)
-
-## Snapshot 49
-![Code Snapshot 49](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-function.png)
-
-## Snapshot 50
-![Code Snapshot 50](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-1-function.png)
-
-## Snapshot 51
-![Code Snapshot 51](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-2-function.png)
-
-## Snapshot 52
-![Code Snapshot 52](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-3-function.png)
-
-## Snapshot 53
-![Code Snapshot 53](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-4-function.png)
-
-## Snapshot 54
-![Code Snapshot 54](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-5-function.png)
-
-## Snapshot 55
-![Code Snapshot 55](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-6-function.png)
-
-## Snapshot 56
-![Code Snapshot 56](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-15-recursion.png)
-
-## Snapshot 57
-![Code Snapshot 57](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-15-recursion-.png)
-
-## Snapshot 58
-![Code Snapshot 58](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/lamda.png)
-
+    </body>
+    </html>
+    
