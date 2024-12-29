@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 
 # Define the directory containing the images
 directory_to_watch = r"C:\python\100-day-Challange\image"
@@ -9,6 +10,11 @@ md_file_path = "program-snap.md"
 # File extensions to monitor (you can add other formats if needed)
 image_extensions = ('.png', '.jpg', '.jpeg')
 
+# Function to get the creation time of a file and sort images by it
+def get_image_creation_time(file_path):
+    # Get the creation time of the file
+    return os.path.getctime(file_path)
+
 # Function to scan the directory and generate markdown links for each image file
 def scan_and_generate_markdown():
     # Check if the directory exists
@@ -16,19 +22,27 @@ def scan_and_generate_markdown():
         print(f"The directory {directory_to_watch} does not exist. Please create it.")
         return
     
+    # Initialize a list to store image file info (filename and creation time)
+    image_files_info = []
+
+    # Loop through all files in the image directory
+    for filename in os.listdir(directory_to_watch):
+        # Check if the file is an image (based on the extension)
+        if filename.lower().endswith(image_extensions):
+            file_path = os.path.join(directory_to_watch, filename)
+            creation_time = get_image_creation_time(file_path)
+            image_files_info.append((filename, creation_time))
+    
+    # Sort images by their creation time (ascending order)
+    image_files_info.sort(key=lambda x: x[1])
+
     # Initialize a list to store markdown links
     markdown_links = []
 
-    # Loop through all files in the image directory
-    image_files = [f for f in os.listdir(directory_to_watch) if f.lower().endswith(image_extensions)]
-    
-    # Sort the files alphabetically (if you want a specific order)
-    image_files.sort()
-
     # Loop through each image file and create the markdown format
-    for i, filename in enumerate(image_files, start=1):
-        # Construct the GitHub URL for the image file
-        file_url = f"https://github.com/mrsushilshrestha/python/blob/main/100-day-Challange/image/{filename}"
+    for i, (filename, _) in enumerate(image_files_info, start=1):
+        # Construct the raw GitHub URL for the image file
+        file_url = f"https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/{filename}"
         # Append the formatted markdown link to the list
         markdown_links.append(f"## Snapshot {i}\n![Code Snapshot {i}]({file_url})\n")
     
