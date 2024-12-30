@@ -174,3 +174,6 @@ Here are some snapshots of my code:
 ## Snapshot 58
 ![Code Snapshot 58](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/lamda.png)
 
+## Snapshot 59
+![Code Snapshot 59](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/set-background-image.png)
+
