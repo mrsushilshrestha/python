@@ -1,3 +1,4 @@
+# "scissors-paper-rock"
 import random
 
 class Tiktak:
