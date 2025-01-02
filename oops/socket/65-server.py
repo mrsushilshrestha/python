@@ -2,16 +2,20 @@ import socket
 
 s= socket.socket()
 
-port = 1234
+port = 6341
 
-s.bind(('',port))
+s.bind(('192.168.1.143',port))
 
 print("I am server in listening Mode")
 s.listen(5)
 
 connection,addr = s.accept()
 print("connection from",addr)
-s.recv(1024)
+
+message = connection.recv(1024)
+print(message)
+
+# s.recv(1024)
 
 s.close()
 

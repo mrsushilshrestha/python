@@ -2,9 +2,9 @@ import socket
 
 s = socket.socket()
 
-port = 1234
+port = 6341
 
-ip = "127.0.0.1"
+ip = "192.168.1.129"
 
 s.connect((ip,port))
 print("connected to server")
