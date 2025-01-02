@@ -177,3 +177,18 @@ Here are some snapshots of my code:
 ## Snapshot 59
 ![Code Snapshot 59](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/set-background-image.png)
 
+## Snapshot 60
+![Code Snapshot 60](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-14-function-background.png)
+
+## Snapshot 61
+![Code Snapshot 61](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-15-1-recursion.png)
+
+## Snapshot 62
+![Code Snapshot 62](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-15-2-recursion.png)
+
+## Snapshot 63
+![Code Snapshot 63](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-15-3-recursion.png)
+
+## Snapshot 64
+![Code Snapshot 64](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/Recursion-background.png)
+
