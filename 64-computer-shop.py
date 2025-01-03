@@ -32,6 +32,7 @@ class Computer_shop:
     def update_function(self,old_name,update_name): #update function
         self.old_name = old_name
         self.update_name =update_name
+        
 
         # with open(self.path,"a+")as file: #to update and Read data using the [a+] append mode
         #     file.write(self.update_name+", ")
