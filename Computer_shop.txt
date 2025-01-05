@@ -1,3 +1,4 @@
 shiva, mac, 3, 
 grishma, mac mini, 12
 dibisha, apple, 12
+sushil shrestha, apple, 1
