@@ -1,7 +1,7 @@
 class Calculator:
         
     def __init__(self,first_number,operator,second_number):
-        print("This is initializing.....")
+        # print("This is initializing.....")
         self.first_number =first_number
         self.second_number = second_number
         self.operator =operator
@@ -31,17 +31,20 @@ class Calculator:
     def div(self):
         return self.first_number/self.second_number
 
-first_number =int(input("Enter the first Number: "))
-operator=input("Enter the operator Number: ")
-second_number =int(input("Enter the second Number: "))
+
+def main():
+    
+    first_number =int(input("Enter the first Number: "))
+    operator=input("Enter the operator Number: ")
+    second_number =int(input("Enter the second Number: "))
 
 
-cal_obj = Calculator(first_number,operator,second_number)
+    cal_obj = Calculator(first_number,operator,second_number)
+
+    output = cal_obj.result()
 
 
-output = cal_obj.result()
+    print("Calculator of two number is",output)
 
 
-print("Calculator of two number is",output)
-
-
+main()

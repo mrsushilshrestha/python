@@ -1,4 +1,4 @@
-# 1. What is a Class?
+# What is a Class?
 # A class is a blueprint or template for creating objects. 
 # It defines the properties (attributes) and behaviors (methods) that the objects of the class will have.
 

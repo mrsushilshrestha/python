@@ -6,8 +6,8 @@ def display_info(**kwargs):
 display_info(name="alice",age=30,locaion="New York")
 
 
+
 def display(*arg):
     print(arg)
-
 
 display("sushil","kathmandu",20)
