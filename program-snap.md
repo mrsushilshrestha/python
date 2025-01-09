@@ -264,3 +264,33 @@ Here are some snapshots of my code:
 ## Snapshot 88
 ![Code Snapshot 88](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/map.png)
 
+## Snapshot 89
+![Code Snapshot 89](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/Day-26-class.png)
+
+## Snapshot 90
+![Code Snapshot 90](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-26-oop-background.png)
+
+## Snapshot 91
+![Code Snapshot 91](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-26-oop-background0.png)
+
+## Snapshot 92
+![Code Snapshot 92](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-27-oop-class-practice.png)
+
+## Snapshot 93
+![Code Snapshot 93](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-27-oop-class-practice0.png)
+
+## Snapshot 94
+![Code Snapshot 94](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-28-Constructor-in-python.png)
+
+## Snapshot 95
+![Code Snapshot 95](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-28-Constructor-in-python1.png)
+
+## Snapshot 96
+![Code Snapshot 96](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-29-calculaor-unsing-constructor-code.png)
+
+## Snapshot 97
+![Code Snapshot 97](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-28-Constructor-in-python-background.png)
+
+## Snapshot 98
+![Code Snapshot 98](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-29-calculator-using-constructor.png)
+
