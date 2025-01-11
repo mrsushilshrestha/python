@@ -1,5 +1,5 @@
 import calendar
-
-year= 2024
-month=12
-print(calendar.month(year,month))
+year = 2025
+for month in range(1, 13):  # Loop through all 12 months
+    print(calendar.month(year, month))
+    print("=====================")
