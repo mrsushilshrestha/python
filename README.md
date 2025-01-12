@@ -34,7 +34,7 @@ Python is a dynamically typed language, so you don't need to declare variable ty
 
 You can also perform operations on variables like arithmetic or string operations:
 
-```python
+<!-- ```python -->
 # Variable Assignments
 x = 10           # int
 price = 19.99    # float
