@@ -246,7 +246,7 @@ Feel free to reach out to me for any questions, feedback, or collaborations:
 
 - **Email**: mrsushilshresthaofficial@gmail.com
 - **GitHub**: [mrsushilshrestha](https://github.com/mrsushilshrestha)
-- **Linkedin**: [mrsushilshrestha](https://Linkedin.com/mrsushilshresthaofficial)
+- **Linkedin**: [mrsushilshresthaofficial](https://www.linkedin.com/in/mrsushilshresthaofficial/)
 
 
 
