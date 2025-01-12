@@ -244,8 +244,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact 💬
 Feel free to reach out to me for any questions, feedback, or collaborations:
 
-- **Email**: sushilshrestha@example.com
+- **Email**: mrsushilshresthaofficial@gmail.com
 - **GitHub**: [mrsushilshrestha](https://github.com/mrsushilshrestha)
+- **Linkedin**: [mrsushilshrestha](https://Linkedin.com/mrsushilshresthaofficial)
+
+
 
 Let’s continue learning and coding together! 🚀
 ```
