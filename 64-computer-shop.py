@@ -1,7 +1,7 @@
 # import os
 class Computer_shop:
 
-    def __init__(self,path): 
+    def __init__(self,path): #make a constructor
         self.path =path
 
     def write_function(self,name,brand,id): #wite function 
@@ -49,9 +49,6 @@ class Computer_shop:
             f.write(new_data)
             
 
-    #Delete line
-    #Internet Reference
-    #some Contant idea take from internet
     def delete_function(self, word):  # Delete function
         with open(self.path, "r") as file:
             lines = file.readlines()  # Read all lines from the file
@@ -71,48 +68,50 @@ class Computer_shop:
 
 
 
-#---------value passing section------------------------------------------------------
-command ="y"
-while command=="y":
-    message="""
-    Enter the Option
-    1>Write Data
-    2>Read Data
-    3>Update Data
-    4>Delete Data 
-    """    
+#---------Main Function------------------------------------------------------
+def main():
+    command ="y"
+    while command=="y":
+        message="""
+        Enter the Option
+        1>Write Data
+        2>Read Data
+        3>Update Data
+        4>Delete Data 
+        """    
 
-    option =input(message)
-    path ="Computer_shop.txt"
-    computer_shop_obj =Computer_shop(path)
+        option =input(message)
+        path ="Computer_shop.txt"
+        computer_shop_obj =Computer_shop(path)
 
-    #condition for Operations
-    if option=='1': #Write data
-        print("Enter the Required Data... ")
-        name =input("Enter the Name Of Customer:- ")
-        brand =input("Enter the Brand Of Computer:- ")
-        id =input("Enter the Id of Customer:- ")
-        computer_shop_obj.write_function(name,brand,id)
+        #condition for Operations
+        if option=='1': #Write data
+            print("Enter the Required Data... ")
+            name =input("Enter the Name Of Customer:- ")
+            brand =input("Enter the Brand Of Computer:- ")
+            id =input("Enter the Id of Customer:- ")
+            computer_shop_obj.write_function(name,brand,id)
 
-    elif option=='2': #for read data
-        word=input("Enter the Name to search: ")
-        computer_shop_obj.read_function(word)
-        
-    elif option=='3': #for read data
-        print("You Click Update Option...")
-        old_name =input("Enter the Old Name Of Customer: ")
-        update_name =input("Enter the Name Of Customer: ")    
-        computer_shop_obj.update_function(old_name,update_name)
-        
-    elif option == '4':  # Delete data
-        word = input("Enter the word or name to delete entries: ")
-        computer_shop_obj.delete_function(word)
+        elif option=='2': #for read data
+            word=input("Enter the Name to search: ")
+            computer_shop_obj.read_function(word)
+            
+        elif option=='3': #for read data
+            print("You Click Update Option...")
+            old_name =input("Enter the Old Name Of Customer: ")
+            update_name =input("Enter the Name Of Customer: ")    
+            computer_shop_obj.update_function(old_name,update_name)
+            
+        elif option == '4':  # Delete data
+            word = input("Enter the word or name to delete entries: ")
+            computer_shop_obj.delete_function(word)
 
-    else:
-        print("Invalid Option !!!")
+        else:
+            print("Invalid Option !!!")
 
     
-    command=input("Do you want to Continue y/n ").strip()  #strip() remove the whitespace
-    if not command=="y":
-        print("<<<<<Exit From The System>>>>>")
-        
+        command=input("Do you want to Continue y/n ").strip()  #strip() remove the whitespace
+        if not command=="y":
+            print("<<<<<Exit From The System>>>>>")
+
+main()

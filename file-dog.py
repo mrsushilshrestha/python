@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 # Define the directory containing the images
-directory_to_watch = r"C:\python\100-day-Challange\image"
+directory_to_watch = r"100-day-Challange\image"
 
 # Define the path for the Markdown file to store image URLs
 md_file_path = "program-snap.md"
