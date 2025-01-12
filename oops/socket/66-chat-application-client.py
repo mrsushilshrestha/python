@@ -4,7 +4,7 @@ import socket
 client_socket = socket.socket()
 
 # Define server IP and port
-server_ip = '192.168.1.143'  # Replace with your server's IP
+server_ip = '192.168.1.65'  # Replace with your server's IP
 server_port = 6341
 
 # Connect to the server
