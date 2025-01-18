@@ -294,3 +294,213 @@ Here are some snapshots of my code:
 ## Snapshot 98
 ![Code Snapshot 98](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-29-calculator-using-constructor.png)
 
+## Snapshot 99
+![Code Snapshot 99](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-29-calculaor-unsing-constructor-code0.png)
+
+## Snapshot 100
+![Code Snapshot 100](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-29-calculaor-unsing-constructor-code1.png)
+
+## Snapshot 101
+![Code Snapshot 101](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-35-github-1.jpg)
+
+## Snapshot 102
+![Code Snapshot 102](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-35-github-2.jpg)
+
+## Snapshot 103
+![Code Snapshot 103](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-35-github-3.jpg)
+
+## Snapshot 104
+![Code Snapshot 104](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-30-making-calculator-using-class.png)
+
+## Snapshot 105
+![Code Snapshot 105](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-30-dog-food-calculator.png)
+
+## Snapshot 106
+![Code Snapshot 106](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-30-student-average-mark-calculator.png)
+
+## Snapshot 107
+![Code Snapshot 107](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-30-empolyee-bonus-calculator.png)
+
+## Snapshot 108
+![Code Snapshot 108](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-30-front-image.png)
+
+## Snapshot 109
+![Code Snapshot 109](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/linkedin-by-skillshikshya.png)
+
+## Snapshot 110
+![Code Snapshot 110](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-31-Rock-Paper-Scissors-game.png)
+
+## Snapshot 111
+![Code Snapshot 111](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-31-Rock-Paper-Scissors-game-output-1.png)
+
+## Snapshot 112
+![Code Snapshot 112](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-31-Rock-Paper-Scissors-game-output-2.png)
+
+## Snapshot 113
+![Code Snapshot 113](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-31-Rock-Paper-Scissors-game-output-3.png)
+
+## Snapshot 114
+![Code Snapshot 114](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-32-guessing-game-output-1.png)
+
+## Snapshot 115
+![Code Snapshot 115](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-32-guessing-game-output-2.png)
+
+## Snapshot 116
+![Code Snapshot 116](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-32-guessing-game-code.png)
+
+## Snapshot 117
+![Code Snapshot 117](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-33-making-calender.png)
+
+## Snapshot 118
+![Code Snapshot 118](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-33-making-calender-output-1.png)
+
+## Snapshot 119
+![Code Snapshot 119](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-33-making-calender-output-2.png)
+
+## Snapshot 120
+![Code Snapshot 120](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-33-making-calender-output-3.png)
+
+## Snapshot 121
+![Code Snapshot 121](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-33-making-calender-output-4.png)
+
+## Snapshot 122
+![Code Snapshot 122](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-31-Rock-Paper-Scissors-game-front.png)
+
+## Snapshot 123
+![Code Snapshot 123](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-32-guessing-game-front.png)
+
+## Snapshot 124
+![Code Snapshot 124](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-33-making-calender-front.png)
+
+## Snapshot 125
+![Code Snapshot 125](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-35-inheritance-in-python.png)
+
+## Snapshot 126
+![Code Snapshot 126](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-35-inheritance-in-python-1.png)
+
+## Snapshot 127
+![Code Snapshot 127](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-35-inheritance-in-python-2.png)
+
+## Snapshot 128
+![Code Snapshot 128](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-36-inheritance-type.png)
+
+## Snapshot 129
+![Code Snapshot 129](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-37-method-overriding-and-super.png)
+
+## Snapshot 130
+![Code Snapshot 130](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-37-method-overriding-and-super-1.png)
+
+## Snapshot 131
+![Code Snapshot 131](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-38-polymorphism-in-python.png)
+
+## Snapshot 132
+![Code Snapshot 132](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-38-polymorphism-in-python-1.png)
+
+## Snapshot 133
+![Code Snapshot 133](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-39-Encapsulation in Python.png)
+
+## Snapshot 134
+![Code Snapshot 134](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-39-Encapsulation in Python-1.png)
+
+## Snapshot 135
+![Code Snapshot 135](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-40-Access-Modifier.png)
+
+## Snapshot 136
+![Code Snapshot 136](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-40-Access-Modifier-1.png)
+
+## Snapshot 137
+![Code Snapshot 137](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-35-github-0.jpg)
+
+## Snapshot 138
+![Code Snapshot 138](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-35-inheritance-in-python-0.png)
+
+## Snapshot 139
+![Code Snapshot 139](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-36-inheritance-type-0.png)
+
+## Snapshot 140
+![Code Snapshot 140](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-37-method-overriding-and-super-0.png)
+
+## Snapshot 141
+![Code Snapshot 141](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-38-polymorphism-in-python-0.png)
+
+## Snapshot 142
+![Code Snapshot 142](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/100-day-code.png)
+
+## Snapshot 143
+![Code Snapshot 143](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-39-Encapsulation in Python-0.png)
+
+## Snapshot 144
+![Code Snapshot 144](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-40-Access-Modifier-0.png)
+
+## Snapshot 145
+![Code Snapshot 145](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-41-Introduction-to-decorator-0.png)
+
+## Snapshot 146
+![Code Snapshot 146](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-42-closures-0.png)
+
+## Snapshot 147
+![Code Snapshot 147](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-43-introducing-decorator-syntax0.png)
+
+## Snapshot 148
+![Code Snapshot 148](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-44-stacking-multiple-decorators-0.png)
+
+## Snapshot 149
+![Code Snapshot 149](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-45-decorators-with-classes-0.png)
+
+## Snapshot 150
+![Code Snapshot 150](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-46-real-world-use-cases-of-decorators-0.png)
+
+## Snapshot 151
+![Code Snapshot 151](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-47-creating-a-custom-decorator-librar-0.png)
+
+## Snapshot 152
+![Code Snapshot 152](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-48-advanced-features-0.png)
+
+## Snapshot 153
+![Code Snapshot 153](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-49-best-practices-and-final-examples-0.png)
+
+## Snapshot 154
+![Code Snapshot 154](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-50-py-game.png)
+
+## Snapshot 155
+![Code Snapshot 155](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-41-Introduction-to-decorator-1.png)
+
+## Snapshot 156
+![Code Snapshot 156](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-41-Introduction-to-decorator-2.png)
+
+## Snapshot 157
+![Code Snapshot 157](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-42-closures-1.png)
+
+## Snapshot 158
+![Code Snapshot 158](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-42-closures-2.png)
+
+## Snapshot 159
+![Code Snapshot 159](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-43-introducing-decorator-syntax1.png)
+
+## Snapshot 160
+![Code Snapshot 160](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-43-introducing-decorator-syntax2.png)
+
+## Snapshot 161
+![Code Snapshot 161](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-44-stacking-multiple-decorators-1.png)
+
+## Snapshot 162
+![Code Snapshot 162](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-45-decorators-with-classes-1.png)
+
+## Snapshot 163
+![Code Snapshot 163](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-46-real-world-use-cases-of-decorators-1.png)
+
+## Snapshot 164
+![Code Snapshot 164](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-46-real-world-use-cases-of-decorators-2.png)
+
+## Snapshot 165
+![Code Snapshot 165](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-47-creating-a-custom-decorator-librar-1.png)
+
+## Snapshot 166
+![Code Snapshot 166](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-48-advanced-features-1.png)
+
+## Snapshot 167
+![Code Snapshot 167](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-49-best-practices-and-final-examples-1.png)
+
+## Snapshot 168
+![Code Snapshot 168](https://raw.githubusercontent.com/mrsushilshrestha/python/main/100-day-Challange/image/day-49-best-practices-and-final-examples-2.png)
+
