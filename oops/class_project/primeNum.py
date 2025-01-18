@@ -1,3 +1,8 @@
+# 1. Prime Numbers in a Range
+# Write a program to input two numbers, start and end.
+# Print all prime numbers between start and end (inclusive).
+# Use a function is_prime(num) to check if a number is prime.
+
 start = int(input("Enter the Start Number: "))
 end = int(input("Enter the End Number: "))
 

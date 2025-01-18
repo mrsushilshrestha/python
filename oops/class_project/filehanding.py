@@ -1,3 +1,9 @@
+# 3. File Handling and Data Storage
+# Write a program that:
+# Accepts a list of strings from the user.
+# Writes the strings to a file named data.txt.
+# Reads the file content and prints it line by line.
+
 strings = []
 print("Enter strings to save to the file.")
 

@@ -1,3 +1,10 @@
+# 4. Class and Objects: Bank Account
+# Create a class BankAccount with the following attributes and methods:
+# Attributes: account_number, account_holder, balance.
+# Methods:
+# deposit(amount) - Adds the given amount to the balance.
+# withdraw(amount) - Deducts the given amount from the balance if sufficient balance is available; otherwise, displays "Insufficient funds." Write a program to create an account object, deposit some money, and then withdraw an amount.
+
 class BankAccount:
     def __init__(self, account_number, account_holder, balance):
         self.account_number = account_number

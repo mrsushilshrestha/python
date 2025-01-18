@@ -1,3 +1,9 @@
+# 5. Polymorphism with Shapes
+# Create a parent class Shape with a method area(). Create two child classes Rectangle and Circle.
+# In Rectangle, override the area() method to calculate and return the area of a rectangle (length × breadth).
+# In Circle, override the area() method to calculate and return the area of a circle (π × radius²).
+# Write a program to create objects of both Rectangle and Circle, and display their areas.
+
 import math
 
 # Parent
