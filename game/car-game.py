@@ -5,6 +5,14 @@ import sys
 # Initialize pygame
 pygame.init()
 
+# Initialize mixer for sound
+pygame.mixer.init()
+
+# Load and play background music
+pygame.mixer.music.load("game/background_music.mp3")
+pygame.mixer.music.play(-1)  # Loop indefinitely
+pygame.mixer.music.set_volume(0.5)  # Set volume to 50%
+
 # Screen dimensions
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
