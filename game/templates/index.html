@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mero Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .search-bar {
+            width: 60%;
+            padding: 10px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .thumbnail {
+            margin-top: 20px;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .download-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mero Download App</h1>
+    <form action="/download" method="post">
+        <input class="search-bar" type="text" id="urls" name="urls" placeholder="Paste video URLs here, separated by commas..." required>
+        <br>
+        <label for="quality">Quality:</label>
+        <select id="quality" name="quality">
+            <option value="360">360p</option>
+            <option value="720">720p</option>
+            <option value="1080">1080p</option>
+            <option value="2160">4K</option>
+        </select>
+        <br><br>
+        <button class="button" type="submit">Download</button>
+    </form>
+
+    {% if messages %}
+        <div class="download-container">
+            {% for message in messages %}
+                <p>{{ message }}</p>
+            {% endfor %}
+        </div>
+    {% endif %}
+</body>
+</html>
