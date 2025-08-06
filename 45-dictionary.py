@@ -3,11 +3,12 @@
 dict = {}
 print(type(dict)) #to know types
 
-user_data_detail ={"name":"skill shikshy","location":"ktm" ,"number":"980808"}
+user_data_detail ={"name":"skillShikshy","location":"kathmandu-Nepal" ,"number":"9808080608"}
 print(user_data_detail["name"]) #print user name
 print(user_data_detail["location"]) #print user location
 print(user_data_detail["number"]) #print user number
 
+print(user_data_detail) #print all user data
 
 #using loop to print the detail and add +977 to number
 for key in user_data_detail:

@@ -1,26 +1,27 @@
 # Using Control Statement in Python Find the Holiday Or NOT
-print("Enter the Day, you want to check:")
-day=input()
+# This code checks if the entered day is a holiday or not.
 
-if(day=="sunday" or day =="sun"):
+day=input("Enter the Day, you want to check: ")
+
+if day=="sunday" or day =="sun":
     print("Wou Today is Holiday!")
 
-elif(day=="monday" or day=="mon"):
+elif day=="monday" or day=="mon":
     print("Sorry! No any Day Off")
 
-elif(day=="tuesday" or day =="tue"):
+elif day=="tuesday" or day =="tue":
     print("Sorry! No any Day Off")
 
-elif(day=="wednesday" or day =="wed"):
+elif day=="wednesday" or day =="wed":
     print("Sorry! No any Day Off")
 
-elif(day=="Thursday" or day =="thur" ):
+elif day=="Thursday" or day =="thu":
     print("Sorry! No any Day Off")
 
-elif(day=="friday" or day =="fri"):
+elif day=="friday" or day =="fri":
     print("Sorry! No any Day Off")
 
-elif(day=="saturday" or day =="sat"):
+elif day=="saturday" or day =="sat" :
     print("Sorry! No any Day Off")
 else:
     print("Sorry! Please Check the Day. This is Not exiting.")

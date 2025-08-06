@@ -8,7 +8,7 @@ print(str2)
 print(str3)
 
 #if we need to print somthing like " " '' in display we use diffrent "" '' """  """ in our code
-str4= "Hello what's up ";
+str4= "Hello what's up "
 str5 ='Hello this is "021710" My symbol Number'
 str6= """Hello this is "021710" My symbol Number. Hi what's up"""
 

@@ -14,7 +14,7 @@
 # = ||
 
 
-#WAP Program addition , subtraction , multiplication of two any number
+#WAP Program addition , subtraction , multiplication,and division of two number
 
 firstNumber =30
 secondNumber =40
@@ -32,3 +32,5 @@ print(div)
 
 
 #what are the use of end in print ("hello ", end =" ,")
+
+# print("hello",end=',')

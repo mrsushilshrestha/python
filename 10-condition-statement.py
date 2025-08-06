@@ -1,9 +1,11 @@
-print("Enter Your age for Voting:")
-age=int(input())
+#checking age for voting eligibility
+#using if, elif, else statements
 
-if(age>18):
+age=int(input("Enter Your age For Voting:"))
+
+if age>18:
     print("You can Vote")
-elif(age==18):
+elif age==18:
     print("Become the Adult")
 else:
     print("Sorry! You can Not Vote At The Time")

@@ -2,7 +2,7 @@
 class ClassName:
     def __init__(self, parameters):
         # Initialize attributes
-        self.attribute = value
+        self.attribute = parameters
 
 #Example:
 class Person:

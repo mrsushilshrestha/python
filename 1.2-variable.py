@@ -6,8 +6,7 @@ print(10)
 
 age =30
 name= "sushil"
-marks = 302.1;
- 
+marks = 302.1
 
 print("type of name is:",type(age))
 print("type of name is:",type(name))

@@ -1,7 +1,8 @@
-#reverse string
+#reverse string "tribhuvanuniversity" to "ytisrevinuvahbirt"
+#using for loop
 name = "tribhuvanuniversity"
 for i in range(18, -1, -1):#reverse string
-    print(name[i],end=',')
+    print(name[i], end='')
 
 
 #pattern print

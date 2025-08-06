@@ -3,4 +3,3 @@ List: Mutable, Ordered
 Tuple: Immutable, Ordered
 Dictionary: Mutable, Ordered (from Python 3.7+)
 Set: Mutable, Unordered
-Frozenset: Immutable, Unordered

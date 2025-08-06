@@ -5,7 +5,7 @@ ageSecond =56.4
 
 
 #print-data
-#print_dataType_ type()
+#print_dataType type()
 
 result= int(name)
 print(type(result))

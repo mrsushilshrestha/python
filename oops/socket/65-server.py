@@ -4,7 +4,7 @@ s= socket.socket()
 
 port = 6341
 
-s.bind(('192.168.1.65',port))
+s.bind(('192.168.0.63',port))
 
 print("I am server in listening Mode")
 s.listen(5)

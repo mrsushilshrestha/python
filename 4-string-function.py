@@ -1,4 +1,4 @@
-str ="i am studing python from Himalayan COllege"
+str ="i am studying python from Himalayan COllege"
 
 print(str.endswith("ege"))   #returns true of string ends with substr
 print(str.endswith("ayan"))

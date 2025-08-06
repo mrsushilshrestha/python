@@ -1,5 +1,13 @@
 #WAP to check the palindrome In python
-list1=[1,2,3,1]
+
+# number = int(input("Enter the number: "))
+# list1 = []
+
+# for i in range(1, number + 1):
+#      list1.append(input(f"Enter the {i} number: "))
+
+
+list1 = [1,2,1]
 
 list_copy=list1.copy()
 list_copy.reverse()
